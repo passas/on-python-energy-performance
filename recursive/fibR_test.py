@@ -1,6 +1,6 @@
 import pytest
 
-from fib_r import fib
+from fibR import fib
 
 def test_fib():
 	assert fib( 0) ==    0
