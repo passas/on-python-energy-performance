@@ -1,0 +1,11 @@
+Language,Program,PowerLimit,Package,Core,GPU,DRAM,Time,Temperature,Memory
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 837.267211914062500000, 751.482116699218750000,  ,  , 36716, 42.5, 10397416
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 837.081237792968750000, 751.010070800781250000,  ,  , 36845, 41.2, 10395284
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 854.450012207031250000, 766.606384277343750000,  ,  , 37680, 41.8, 10395084
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 830.451904296875000000, 745.094482421875000000,  ,  , 36517, 41.8, 10409416
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 833.677062988281250000, 747.946350097656250000,  ,  , 36686, 42.0, 10395348
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 833.791931152343750000, 748.292663574218750000,  ,  , 36569, 42.0, 10399076
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 836.748413085937500000, 751.313354492187500000,  ,  , 36558, 42.0, 10418856
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 835.084167480468750000, 749.371704101562500000,  ,  , 36683, 42.5, 10397272
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 835.658020019531250000, 750.177307128906250000,  ,  , 36557, 42.2, 10392844
+Codon, -release: Query_1 'BeaNogueira' #33 accesses, -1, 833.739868164062500000, 748.307617187500000000,  ,  , 36554, 42.8, 10411408
