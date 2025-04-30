@@ -1,0 +1,2 @@
+Language,Program,PowerLimit,Package,Core,GPU,DRAM,Time,Temperature,Memory
+Nuitka, Bubble Sort 30000, -1, error,  error,  error, error, error, error
