@@ -1,0 +1,5 @@
+Core 0: 25.0°C
+Core 1: 25.0°C
+Core 2: 25.0°C
+Core 3: 25.0°C
+Average Temperature: 25.0°C
