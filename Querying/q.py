@@ -122,15 +122,15 @@ def valid_date(string):
 		month = int(string[3])*10 + int(string[4])
 		year = int(string[6])*1000 + int(string[7])*100 + int(string[8])*10 + int(string[9])
 	except ValueError:
-		return 0
+		return False
 	else:
 		if string[2] == '/' and string[5] == '/' and day >= 1 and day <= 31 and month >= 1 and month <= 12:
 			if month == 2 and day > 29:
-				return 0
+				return False
 			elif month in [4,6,9,11] and day > 30:
-				return 0
-			return 1
-		return 0
+				return False
+			return True
+		return False
 	
 def valid_accountStatus(string):
 	if string.title() == 'Active' or 'Inactive':
