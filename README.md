@@ -16,5 +16,5 @@ This repository intends to measure the energy performance throughout the years d
 ### Data Querying
 - Ingestion
 - Validation
-- Q1: 1 Group By + 1 PK + N PK(FK) + M FK(PK) + Calculus
-- Q2: 2 Group By + N PK(FK) + M FK(PK) + Calculus + Sorting
+- Q1:
+- Q2:
