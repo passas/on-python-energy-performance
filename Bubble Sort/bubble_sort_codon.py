@@ -20,7 +20,7 @@ def bubble_sort(v):
 				swap(v, j, j+1)
 def main ():
 	n = 30000
-	v = fill(v)
+	v = fill(n)
 	#print(v)
 	bubble_sort(v)
 	#print(v)
