@@ -68,11 +68,10 @@ def fill(n):
 
 def main ():
     n = 9000000
-	v = []
     v = fill(n)
-	#print(v)
-	mergeSort(v, 0, n-1)
-	#print(v)
+    #print(v)
+    mergeSort(v, 0, n-1)
+    #print(v)
 
 if __name__ == '__main__':
 	main()

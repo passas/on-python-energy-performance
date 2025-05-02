@@ -155,35 +155,35 @@ def main():
 	#Q1: User
 	#username = 'AAbreu' #1 drivers accesses _min
 	#username = 'SalvSantos516' #11 drivers accesses _moda
-	#username = 'BeaNogueira1187' #33 driver acesses _max
-	#nome = users[username]['name']
-	#genero = users[username]['gender']
-	#idade = age_FromBirth(users[username]['birth_date'])
-	#avaliacao = 0.0
-	#total = 0.0
-	#n = 0
-	#for ride in rides_by_user[username]:
-	#	avaliacao += float(ride['score_user'])
-	#	tax = getTax(drivers[ride['driver']]['car_class'])
-	#	total += tax['tax'] + tax['km'] * float(ride['distance'])
-	#	n += 1
-	#avaliacao /= n
-	#s = f'{nome};{genero};{idade};{avaliacao:.1f};{n};{total:.2f}'
+	username = 'BeaNogueira1187' #33 driver acesses _max
+	nome = users[username]['name']
+	genero = users[username]['gender']
+	idade = age_FromBirth(users[username]['birth_date'])
+	avaliacao = 0.0
+	total = 0.0
+	n = 0
+	for ride in rides_by_user[username]:
+		avaliacao += float(ride['score_user'])
+		tax = getTax(drivers[ride['driver']]['car_class'])
+		total += tax['tax'] + tax['km'] * float(ride['distance'])
+		n += 1
+	avaliacao /= n
+	s = f'{nome};{genero};{idade};{avaliacao:.1f};{n};{total:.2f}'
 	#print(f'{nome};{genero};{idade};{avaliacao:.1f};{n};{total:.2f}')
 
 	#Q2: Driver N Top Score
-	n = len(drivers) #100 000
-	top = []
-	for driver, rides in rides_by_driver.items():
-		avaliacao = 0.0
-		for ride in rides:
-			avaliacao += float(ride['score_driver'])
-		avaliacao /= len(rides)
-		t_nome = drivers[driver]['name']
-		top.append((driver, t_nome, avaliacao))
-	for driver in sorted(top, key=lambda x: x[2], reverse=True)[0:n]:
-		s = f"{driver[0]};{driver[1]};{driver[2]:.1f}"
-		#print(s)
+	#n = len(drivers) #100 000
+	#top = []
+	#for driver, rides in rides_by_driver.items():
+	#	avaliacao = 0.0
+	#	for ride in rides:
+	#		avaliacao += float(ride['score_driver'])
+	#	avaliacao /= len(rides)
+	#	t_nome = drivers[driver]['name']
+	#	top.append((driver, t_nome, avaliacao))
+	#for driver in sorted(top, key=lambda x: x[2], reverse=True)[0:n]:
+	#	s = f"{driver[0]};{driver[1]};{driver[2]:.1f}"
+	#	#print(s)
 
 
 
