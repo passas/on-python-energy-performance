@@ -1,5 +1,5 @@
 # On Python Energy Performance
-This repository intends to measure the energy performance throughout the years developing the Python interpreter along its versions.
+This repository intends to measure the energy performance throughout the years developing the Python interpreter along its unofficial compilers.
 
 ### Mainstream Work
 - Primes
