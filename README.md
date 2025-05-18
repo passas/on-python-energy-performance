@@ -16,5 +16,5 @@ This repository intends to measure the energy performance throughout the years d
 ### Data Querying
 - Ingestion
 - Validation
-- Q1:
-- Q2:
+- Q1: User Profile based on its total spents
+- Q2: Rank of the best N drivers by their score
